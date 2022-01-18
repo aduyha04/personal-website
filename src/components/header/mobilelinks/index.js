@@ -1,5 +1,5 @@
 import React from 'react'
-import { faBriefcase, faCode, faPhone, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faCode, faPhone, faLaptopCode, faFile } from '@fortawesome/free-solid-svg-icons'
 import "./mobilelinks.css"
 import {faWindowClose} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
