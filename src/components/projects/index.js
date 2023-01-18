@@ -1,10 +1,12 @@
 import React from 'react'
 import { ProjectArray } from '../data/projects'
+import Sectioner from '../duplicate/section'
 import './projects.css'
 function Project() {
     const data = ProjectArray
     return (
         <div className='projects'>
+            <Sectioner/>
             <label className="title">Projects</label>
             <div>
                 {data.map((project) => {
@@ -16,16 +18,16 @@ function Project() {
                                 <div className="project-urls">
                                 <div className='project-url' href={project.demo}>
                                     {project.demo&& 
-                                    <a>
+                                    <a href={project.demo} target="_blank">
                                         <div className='link-btns'>
                                             Demo
                                         </div>
                                     </a>}
                                 </div>
-                                <div className='project-url' href={project.github}>
-                                    <a>
+                                <div className='project-url'>
+                                    <a href={project.github} target="_blank"> 
                                         <div className='link-btns'>
-                                            github
+                                            Github
                                         </div>
                                     </a>
                                 </div>

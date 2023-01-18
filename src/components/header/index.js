@@ -8,7 +8,7 @@ function Header() {
     const [show, setShow] = useState(false)
     return (
         <div className="header">
-            <div className="name">Anh-Duy</div>
+            <div className="name">Anh-Duy Ha</div>
             <div className="links">
                <div className='weblinks'>
                     <WebLinks/>
