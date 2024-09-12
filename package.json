@@ -2,7 +2,7 @@
   "name": "personal-website",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://aduyha04.github.io/site/",
+  "homepage": "https://aduyha04.github.io/personal-website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
